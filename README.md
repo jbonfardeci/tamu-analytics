@@ -9,9 +9,11 @@ Python environment: Anacondas. Download here: https://repo.continuum.io/archive/
 If you have a GitHub account (or need to set one up), send me your user name and I’ll make you a collaborator on the repo. 
 
 2. Clone: Once Git is installed, you can “clone” the repo to your computer in the Git shell: 
-a. Default folder should be “Documents\GitHub”
-b. `git clone https://github.com/jbonfardeci/tamu-analytics.git`
-c. `cd tamu*`
+a. Default folder should be "Documents\GitHub"
+```
+git clone https://github.com/jbonfardeci/tamu-analytics.git
+cd tamu*
+```
 
 3. Branching: When you make changes, be sure to make a branch of the master. After you have the branch debugged working, you may merge your changes back into the master branch. 
 ```
