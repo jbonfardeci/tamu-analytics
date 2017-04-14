@@ -1,6 +1,8 @@
 # tamu-analytics
 This is a repo for the TAMU Analytics class of 2018 to collaborate on Python and/or R projects...or anything else you bring to the table: Scala, Java, F#, etc.
 
+Python environment: Anacondas. Download here: https://repo.continuum.io/archive/Anaconda2-4.3.1-Windows-x86_64.exe
+
 1. Install GitHub: https://desktop.github.com
 
 If you have a GitHub account (or need to set one up), send me your user name and I’ll make you a collaborator on the repo. 
