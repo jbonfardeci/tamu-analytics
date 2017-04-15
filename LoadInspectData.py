@@ -17,26 +17,34 @@ fileLocation = ('C:/Data/hof_data.csv')         #Link the file location to 'file
 
 df = pd.read_csv(fileLocation)                  #Read the file into a dataframe
 
-head = df.head()                                #Inspect the first five rows
-tail = df.tail()                                #Inspect the last five rows
-description = df.describe()                     #Describe each column in the data
-
-
 print()
 print('------------------------------------')
 print('The first five rows in the data are: ')
 print('------------------------------------')
 print()
-print(head)
+print(df.head())                                #Inspect the first five rows
 print()
 print('----------------------------------')
 print('The last five rows in the data are: ')
 print('----------------------------------')
 print()
-print(tail)
+print(df.tail())                                   #Inspect the last five rows
 print()
 print('-------------------------------------------------')
 print('Here is a description of the data in each column:')
 print('-------------------------------------------------')
 print()
-print(description)
+print(df.describe())                              #Describe each column in the data
+print()
+print('-----------------------------------')
+print('Here is a list of the column names:')
+print('-----------------------------------')
+print()
+print(df.columns)                               #List the column names
+print()
+print('----------------------------------')
+print('Here is a shape of the data frame:')
+print('(Rows, Columns)')
+print(df.shape)                                 #List the shape of the data
+print('----------------------------------')
+print()
