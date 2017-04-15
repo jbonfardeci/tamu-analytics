@@ -4,7 +4,13 @@ This is a repo for the TAMU Analytics class of 2018 to collaborate on Python and
 
 Admin contact: jbonfardeci@tamu.edu
 
-Python environment: Anacondas. Download here: https://repo.continuum.io/archive/Anaconda2-4.3.1-Windows-x86_64.exe
+Anacondas Python 2.7 environment: https://repo.continuum.io/archive/Anaconda2-4.3.1-Windows-x86_64.exe
+
+Anacondas Python 3.6 environment: https://repo.continuum.io/archive/Anaconda3-4.3.1-Windows-x86_64.exe
+
+Note: Anacondas creates an "environment" for a Python install, so you can install multiple versions side by side. This means Python and whatever 3rd-party packages you install runs in an isolated bubble. Most Python code for data science is written in 2.7 code but computer scientists use the latest 3.6 version. For whatever reasons, they did not build in backwards-compatibility like you'd expect in languages such as C# or Java.
+
+You do not need to install multiple versions of Anacondas, just create a new environment from the Environments tab in Anaconda Navigator. 
 
 1. Install GitHub: https://desktop.github.com
 
